@@ -12,6 +12,8 @@ set ruler
 
 " do this first
 " mkdir ~/.vim ~/.vim/.backup ~/.vim/.swp ~/.vim/.undo
+"Turn on backup option
+set backup
 set undodir=~/.vim/.undo//
 set backupdir=~/.vim/.backup//
 set directory=~/.vim/.swp//
