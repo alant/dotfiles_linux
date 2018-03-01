@@ -8,10 +8,6 @@ cd $HOME
 git clone https://github.com/alant/dotfiles_linux.git 
 ln -sb dotfiles_linux/.vimrc .
 ln -sb dotfiles_linux/.bashrc .
-ln -sb dotfiles_linux/.screenrc .
-ln -sb dotfiles_linux/.bash_profile .
-ln -sb dotfiles_linux/.bashrc_custom .
-
 ```
 
 See also http://github.com/startup-class/setup to install prerequisite
