@@ -1,8 +1,5 @@
 export PS1='$(whoami):$(pwd)$ '
 
-if [[ -z "$TMUX" ]] && [ "$SSH_CONNECTION" != "" ]; then
-    tmux attach-session -t ssh_tmux || tmux new-session -s ssh_tmux
-fi
 ## -----------------------
 ## -- 2) Set up aliases --
 ## -----------------------
