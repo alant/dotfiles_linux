@@ -5,7 +5,7 @@ configure your `bash` and `vim` development environment as follows:
 
 ```sh
 mkdir ~/.vim ~/.vim/.backup ~/.vim/.swp ~/.vim/.undo
-ln -sb dotfiles_linux/.vimrc .
-ln -sb dotfiles_linux/.bashrc .
+ln -sb ~/dotfiles_linux/.vimrc .
+ln -sb ~/dotfiles_linux/.bashrc .
 ```
 
