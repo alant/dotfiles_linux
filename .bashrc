@@ -31,7 +31,8 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 
 # 2.4) grep options
-export GREP_OPTIONS='--color=auto'
-export GREP_COLOR='1;31' # green for matches
+alias grep="grep --color=auto"
+alias fgrep="fgrep --color=auto"
+alias egrep="egrep --color=auto"
 
 . "/home/ubuntu/.acme.sh/acme.sh.env"
