@@ -35,4 +35,4 @@ alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias egrep="egrep --color=auto"
 
-. "/home/ubuntu/.acme.sh/acme.sh.env"
+#. "/home/ubuntu/.acme.sh/acme.sh.env"
